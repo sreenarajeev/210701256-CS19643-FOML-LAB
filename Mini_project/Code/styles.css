@@ -1,0 +1,36 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    pointer-events: none;
+}
+.navbar a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.navbar a:hover{
+    background: linear-gradient(50deg,#f06,rgb(34, 192, 244));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+a.nav-home.active {
+    background: linear-gradient(50deg,#f06,rgb(34, 192, 244));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
